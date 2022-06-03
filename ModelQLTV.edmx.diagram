@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6cb6d507fb684f2e848f362f0286babe" Name="Diagram1" ZoomLevel="92" >
+        <EntityTypeShape EntityType="ModelQLTV.NXB" Width="1.5" PointX="9" PointY="0.5" />
+        <EntityTypeShape EntityType="ModelQLTV.TheLoai" Width="1.5" PointX="11.875" PointY="2.25" />
+        <EntityTypeShape EntityType="ModelQLTV.TacGia" Width="1.5" PointX="11.375" PointY="5.125" />
+        <EntityTypeShape EntityType="ModelQLTV.Sach" Width="1.5" PointX="8.875" PointY="2.75" />
+        <AssociationConnector Association="ModelQLTV.NXBSach" />
+        <AssociationConnector Association="ModelQLTV.TheLoaiSach" />
+        <AssociationConnector Association="ModelQLTV.SachTacGia" />
+        <EntityTypeShape EntityType="ModelQLTV.The" Width="1.5" PointX="6.25" PointY="0.5" />
+        <EntityTypeShape EntityType="ModelQLTV.Muon" Width="1.5" PointX="2.875" PointY="2.25" />
+        <AssociationConnector Association="ModelQLTV.TheMuon" />
+        <EntityTypeShape EntityType="ModelQLTV.DocGia" Width="1.5" PointX="6.25" PointY="3.625" />
+        <EntityTypeShape EntityType="ModelQLTV.ChiTietMuon" Width="1.5" PointX="3.375" PointY="5" />
+        <AssociationConnector Association="ModelQLTV.MuonChiTietMuon" />
+        <AssociationConnector Association="ModelQLTV.SachChiTietMuon" />
+        <EntityTypeShape EntityType="ModelQLTV.YeuCauMuon" Width="1.5" PointX="0.5" PointY="1.75" />
+        <AssociationConnector Association="ModelQLTV.YeuCauMuonThe" />
+        <EntityTypeShape EntityType="ModelQLTV.ChiTietYeuCau" Width="1.5" PointX="0.5" PointY="4.625" />
+        <AssociationConnector Association="ModelQLTV.YeuCauMuonChiTietYeuCau" />
+        <AssociationConnector Association="ModelQLTV.SachChiTietYeuCau" />
+        <AssociationConnector Association="ModelQLTV.TheDocGia" />
+        <EntityTypeShape EntityType="ModelQLTV.TaiKhoan" Width="1.5" PointX="3.5" PointY="0.5" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
